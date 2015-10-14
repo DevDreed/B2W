@@ -38,6 +38,12 @@ h4{
     font-size: 18px;
 }
 
+button,input, .btn, a.btn{
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+}
+
 .btn {
     font-weight: bold;
 }
@@ -46,10 +52,14 @@ h4{
     background-color: #dd5638;
 }
 
+img {
+    max-width: 100%;
+}
+
 /* === HERO === */
 
 #hero {
-    background: url("../img/hero-bg.jpg");
+    background: url("../img/hero-bg.jpg") 50% 0 repeat fixed;
     min-height: 500px;
     padding: 40px 0;
     color: white;
@@ -112,4 +122,35 @@ h4{
     color: white;
     font-weight: bold;
     display: block;
+}
+
+/* ==== LAYOUT ==== */
+
+section{
+    padding: 80px 0;
+}
+
+.section-header{
+    text-align: center;
+}
+
+section h2{
+    margin: 20px 0 40px;
+}
+
+section h3 {
+    margin: 30px 0 10px;
+}
+
+#optin {
+    background: #3e4249;
+    padding: 20px 0;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    font-size: 1.2em;
+}
+
+#optin p {
+    margin: 7px 0 0 0;
 }
