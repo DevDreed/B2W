@@ -8,7 +8,7 @@ Blue Gray:  #3e4249
 
 /* === GENERAL === */
 
-body{
+body {
     margin-top: 50px;
     font-family: 'proxima-nova', "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
@@ -16,17 +16,17 @@ body{
 }
 
 /* === GLOBAL === */
-h1,h2,h3,h4,h5,h6{
+h1, h2, h3, h4, h5, h6 {
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizelegibility;
     font-weight: bold;
 }
 
-h1{
+h1 {
     font-size: 3em;
 }
 
-h1,h2{
+h1, h2 {
     margin: 0 0 40px;
 }
 
@@ -34,11 +34,28 @@ h3 {
     margin: 20px 0;
 }
 
-h4{
+h4 {
     font-size: 18px;
 }
 
-button,input, .btn, a.btn{
+p {
+    margin: 0 0 15px;
+}
+
+p.lead {
+    font-weight: normal;
+}
+
+a:link, a:visited {
+    color: #dd5638;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #c9302c;
+}
+
+button, input, .btn, a.btn {
     color: white;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizelegibility;
@@ -48,8 +65,8 @@ button,input, .btn, a.btn{
     font-weight: bold;
 }
 
-button.btn:focus{
-    outline:none !important;
+button.btn:focus {
+    outline: none !important;
 }
 
 .btn-danger {
@@ -57,24 +74,25 @@ button.btn:focus{
 
 }
 
-.btn-success{
+.btn-success {
     background: #79b044;
     border: none;
 }
 
-.btn-success:hover{
+.btn-success:hover {
     background: #6a9b3d;
     border-color: #6a9b3d;
 }
+
 img {
     max-width: 100%;
 }
 
-.modal-content{
+.modal-content {
     background: url("../img/tile.jpg") top left repeat;
 }
 
-.badge.social{
+.badge.social {
     background: #ccc;
     font-size: 24px;
     height: 40px;
@@ -88,36 +106,37 @@ img {
     border-radius: 50px;
 }
 
-.badge.social.twitter:hover{
+.badge.social.twitter:hover {
     background: #55acee;
 }
 
-.badge.social.facebook:hover{
+.badge.social.facebook:hover {
     background: #3b5998;
 }
 
-.badge.social.gplus:hover{
+.badge.social.gplus:hover {
     background: #db4b39;
 }
 
-blockquote{
-    padding:0;
+blockquote {
+    padding: 0;
     border: none;
     font-style: italic;
-text-align: left;
+    text-align: left;
 
 }
 
-blockquote cite{
+blockquote cite {
     display: block;
     color: #777;
     margin: 15px 0 0 0;
 
 }
 
-blockquote:before{
-    display:none;
+blockquote:before {
+    display: none;
 }
+
 /* === HERO === */
 
 #hero {
@@ -134,7 +153,6 @@ blockquote:before{
     text-align: center;
 }
 
-
 #hero .hero-text {
     margin-top: 30px;
 }
@@ -146,7 +164,7 @@ blockquote:before{
 
 #price-timeline .price {
     display: inline-block;
-    margin:  0 2% 0 0;
+    margin: 0 2% 0 0;
     width: 30%;
     background: #3e4249;
     padding: 10px 20px 30px;
@@ -158,7 +176,7 @@ blockquote:before{
     background: #dd5638;
 }
 
-#price-timeline .price span{
+#price-timeline .price span {
     background: #101010;
     display: block;
     height: 70px;
@@ -172,7 +190,7 @@ blockquote:before{
     -moz-border-radius: 100%;
     position: absolute;
     bottom: -35px;
-    left:50%;
+    left: 50%;
     margin-left: -35px;
 }
 
@@ -188,15 +206,19 @@ blockquote:before{
 
 /* ==== LAYOUT ==== */
 
-section{
+.row + .row {
+    margin-top: 20px;
+}
+
+section {
     padding: 80px 0;
 }
 
-.section-header{
+.section-header {
     text-align: center;
 }
 
-section h2{
+section h2 {
     margin: 20px 0 40px;
 }
 
@@ -217,36 +239,36 @@ section h3 {
     margin: 7px 0 0 0;
 }
 
-#who-benefits{
-    background:white;
+#who-benefits {
+    background: white;
 }
 
-#course-features{
+#course-features {
     background: #3e4249;
     color: white;
     text-align: center;
 }
 
-#project-features{
+#project-features {
     text-align: center;
 }
 
-#featurette{
+#featurette {
     background: url("../img/stuff-bg.jpg") 50% 100% repeat fixed;
     background-size: cover;
     text-align: center;
     color: white;
 }
 
-#instructor{
+#instructor {
     background: white url("../img/brad-elvis.png") 90% -10px no-repeat;
 }
 
-#instructor h2{
+#instructor h2 {
     margin: 0 20px;
 }
 
-#instructor .num{
+#instructor .num {
     display: table;
     font-size: 30px;
     font-weight: bold;
@@ -263,7 +285,7 @@ section h3 {
     text-rendering: optimizelegibility;
 }
 
-#instructor .num .num-content{
+#instructor .num .num-content {
     display: table-cell;
     vertical-align: middle;
 }
@@ -274,21 +296,21 @@ section h3 {
     font-weight: normal;
 }
 
-#kudos{
+#kudos {
     text-align: center;
 }
 
-.testimonial{
+.testimonial {
     margin-bottom: 60px;
 }
 
-.testimonial img{
+.testimonial img {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
 }
 
-#signup{
+#signup {
     text-align: center;
     background: url("../img/hipster-stuff.jpg") center center repeat fixed;
     background-size: cover;
@@ -296,29 +318,110 @@ section h3 {
     padding: 140px 0;
 }
 
-#signup h2{
+#signup h2 {
     font-weight: normal;
 }
 
-#signup h2 strong{
+#signup h2 strong {
     border-bottom: solid 2px #dd5638;
 }
 
 #signup .btn {
     font-size: 24px;
 }
+
+footer {
+    background: #3e4249;
+    color: white;
+    padding: 20px 0 10px;
+    font-size: 12px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a:link, footer a:visited {
+    color: white;
+}
+
+footer a:hover {
+    color: #dd5638;
+}
+
+footer li.signup-link a {
+    color: #dd5638;
+}
+
+footer li.signup-link a:hover {
+    font-weight: bold;
+}
+
 /* ==== CUSTOM ICON SPRITES ====*/
 
-i.ci{
+i.ci {
     display: inline-block;
     height: 40px;
     width: 40px;
     background: url("../img/icon-sprite.png") no-repeat;
 }
 
-.ci.ci-computer     {background-position: 0 0;}
-.ci.ci-watch        {background-position: -40px 0;}
-.ci.ci-calendar     {background-position: -80px 0;}
-.ci.ci-community    {background-position: -120px 0;}
-.ci.ci-instructor   {background-position: -160px 0;}
-.ci.ci-device       {background-position: -200px 0;}
+.ci.ci-computer {
+    background-position: 0 0;
+}
+
+.ci.ci-watch {
+    background-position: -40px 0;
+}
+
+.ci.ci-calendar {
+    background-position: -80px 0;
+}
+
+.ci.ci-community {
+    background-position: -120px 0;
+}
+
+.ci.ci-instructor {
+    background-position: -160px 0;
+}
+
+.ci.ci-device {
+    background-position: -200px 0;
+}
+
+
+/* ==== MEDIA QUERIES ==== */
+
+@media screen and (max-width: 991px ) {
+    #instructor .container{
+        background: rgba(255,255,255,0.8);
+        padding:20px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .logo{
+        width: 50%;
+    }
+
+    #optin p {
+        margin: 0 0 10px;
+    }
+
+    #featurette iframe {
+        height: 240px;
+    }
+}
+
+@media screen and (max-width: 568px){
+    #instructor .num {
+        height: 100px;
+        width: 100px;
+        font-size: 22px;
+    }
+
+    #instructor .num span {
+        font-size: 16px;
+    }
+}
